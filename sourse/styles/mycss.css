@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(13, 13, 17);
+}
+
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(156, 155, 155);
+}
+ 
+.navbar-brand img {
+    width: 45px;
+}
+
+
+.navbar-toggler {
+    background-color: rgb(156, 156, 155);
+}
+
+.item {
+    width: 87%;
+}
+
+
+.row {
+    filter: drop-shadow(0px 0px 30px #150d1a);
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+   color: white;
+ 
+}
+
+#ip {
+
+    width: 500px;
+}
+
+
+#IPsE {
+    margin-left: 205px;
+    color: white;
+}
+
+
+.naz {
+    margin-top: 15px;
+    font-size: 20px;
+    font: arial;
+    color: rgb(254, 205, 17);
+}
+.ga {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+  
+
+.text {
+    font-size: large;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+.faq{
+    font-size: larger;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+.slide-text,
+.footer-text {
+    color: white;
+    margin: auto auto;
+}
+
+
+footer {
+    background: linear-gradient(0deg, #0a000f 3%, #0d0d11 58%);
+}
+
+
+
+#www {
+    width: 10px;
+}
+
+
+
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
